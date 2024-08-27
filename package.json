@@ -1,0 +1,18 @@
+{
+  "name": "fuel-ts-typegen-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:types": "rimraf ./contract-types && fuels typegen -i ./out/**/*-abi.json -o ./contract-types"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fuels": "^0.94.1"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}
